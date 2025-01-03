@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/font/Inter_28pt-Italic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('./assets/font/Spectral-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 400;
+}
+
 body {
 	max-width: 1920px;
 	margin: auto;
