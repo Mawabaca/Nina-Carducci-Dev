@@ -348,3 +348,34 @@ input[type="submit"] {
 	}
 }
 
+footer {
+    background-color: #fff;
+    padding-top: 20px;
+	padding-bottom: 20px;
+    text-align: center;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin-bottom: 10px;
+}
+
+.footer-container h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.footer-container p {
+    margin: 5px 0;
+    color: #6c757d;
+}
+
+.footer-container a {
+    color: #6c757d;
+    text-decoration: none;
+}
