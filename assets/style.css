@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/font/Inter_28pt-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('/assets/font/Spectral-Italic.ttf') format('truetype');
+}
+
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -91,7 +101,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+		min-height: 100vh;
 }
 .title{
 	text-align: center;
@@ -100,8 +110,13 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
+
+.nav-item{
+	cursor: pointer;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
