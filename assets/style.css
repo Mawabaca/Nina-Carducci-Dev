@@ -2,14 +2,16 @@
 {
 	font-family:Inter;
 	src:url('/assets/font/Inter_18pt-Regular.ttf') 
-	format('truetype')
+	format('truetype');
+	font-display: swap;
 }
 
 @font-face
 {
 	font-family:Spectral;
 	src:url('/assets/font/Spectral-Regular.ttf') 
-	format('truetype')
+	format('truetype');
+	font-display: swap;
 }
 
 body {
