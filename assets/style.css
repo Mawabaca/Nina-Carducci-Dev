@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'Inter';
-    src: url('/assets/font/Inter_28pt-Italic.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Spectral';
-    src: url('/assets/font/Spectral-Italic.ttf') format('truetype');
-}
 
 body {
 	max-width: 1920px;
